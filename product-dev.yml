@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    bus:
+      trace:
+        enabled: true     # 开启cloud bus的跟踪
+  redis:
+    host: 192.168.159.133
+    port: 6379
+  rabbitmq:
+    host: 192.168.159.133
+    port: 5672
+    username: guest
+    password: guest
+management.endpoints.web.exposure.include: '*'
