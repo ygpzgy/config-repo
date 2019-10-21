@@ -1,0 +1,8 @@
+server:
+  port: 7000
+spring:
+  cloud:
+    bus:
+      trace:
+        enabled: true     # 开启cloud bus的跟踪
+management.endpoints.web.exposure.include: '*'
